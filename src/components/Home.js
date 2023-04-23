@@ -1,13 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import Introduction from "./Introduction";
-import MyWork from "./MyWork";
+import MyServices from "./MyServices";
 
 const Home = () => {
   return (
     <>
       <Introduction />
-      <MyWork />
+      <MyServices />
     </>
   );
 };

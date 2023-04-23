@@ -1,4 +1,4 @@
-const MyWorkElement = ({title, words}) => {
+const MyServicesElement = ({title, words}) => {
     return ( 
         <div class="service">
                     <h3>{title}</h3>
@@ -7,4 +7,4 @@ const MyWorkElement = ({title, words}) => {
      );
 }
  
-export default MyWorkElement;
+export default MyServicesElement;

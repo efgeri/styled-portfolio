@@ -6,7 +6,7 @@ import Projects from "./components/Projects";
 import "./App.css";
 import styled from "styled-components";
 import Introduction from "./components/Introduction";
-import MyWork from "./components/MyWork";
+import MyWork from "./components/MyServices";
 
 
 
