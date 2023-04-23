@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import "./App.css";
 import styled from "styled-components";
 import Introduction from "./components/Introduction";
+import MyWork from "./components/MyWork";
 
 
 
@@ -14,7 +15,7 @@ function App() {
     <div className="App">
       <Router>
       <Navbar />
-      <Introduction />
+      
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

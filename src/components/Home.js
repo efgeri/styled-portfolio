@@ -1,13 +1,15 @@
 import React from "react";
 import styled from "styled-components";
+import Introduction from "./Introduction";
+import MyWork from "./MyWork";
 
 const Home = () => {
   return (
-
-      <h4>Home</h4>
-
+    <>
+      <Introduction />
+      <MyWork />
+    </>
   );
 };
 
 export default Home;
-
