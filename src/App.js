@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, HashRouter } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -10,19 +10,24 @@ import MyWork from "./components/MyServices";
 
 
 
+
 function App() {
   return (
     <>
     <div className="App">
-      <Router>
       <Navbar />
-      
+      <Home />
+      <About />
+      <Projects />
+
+
+      {/* <Router>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
-        </Routes> 
-      </Router>
+        </Routes>
+        </Router> */}
     </div>
     <footer>
             <a href="mailto:efgeri@gmail.com" class="footer__link">efgeri@gmail.com</a>
