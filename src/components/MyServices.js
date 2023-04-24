@@ -7,9 +7,9 @@ const MyServices = () => {
     <section class="my-services" id="services">
       <h2 class="section__title section__title--services">What I do</h2>
       <div class="services">
-        <MyServicesElement title={"Design + Development"} words={ipsum} />
-        <MyServicesElement title={"E-Commerce"} words={ipsum} />
-        <MyServicesElement title={"WordPress"} words={ipsum} />
+        <MyServicesElement title={"Not sure"} words={ipsum} />
+        <MyServicesElement title={"Holding places"} words={ipsum} />
+        <MyServicesElement title={"Bleh"} words={ipsum} />
       </div>
 
       <a href="/projects" class="btn">
